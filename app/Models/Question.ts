@@ -3,8 +3,8 @@ import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
 
 export enum QuestionDifficultyTypes {
   EASY = 'easy',
-  MEDIUM = 'MEDIUM',
-  HARD = 'HARD',
+  MEDIUM = 'medium',
+  HARD = 'hard',
 }
 
 export enum QuestionTypes {

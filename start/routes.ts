@@ -21,5 +21,12 @@
 import Route from '@ioc:Adonis/Core/Route'
 
 Route.get('/', async () => {
-  return { hello: 'world' }
+  return { hello: 'world 🚀' }
 })
+
+Route.group(() => {
+  Route.get('questions', 'QuestionsController.index')
+  Route.post('questions', 'QuestionsController.store')
+  Route.put('questions', 'QuestionsController.update')
+  Route.delete('questions', 'QuestionsController.delete')
+}).prefix('/api')

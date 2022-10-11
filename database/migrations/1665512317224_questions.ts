@@ -6,12 +6,12 @@ export default class extends BaseSchema {
   public async up () {
     this.schema.createTable(this.tableName, (table) => {
       table.increments('id')
-      table.string('category')
-      table.string('question')
-      table.string('correct_answer')
-      table.enu('difficulty', ['easy', 'medium', 'hard'])
-      table.json('incorrect_answers')
-      table.enu('type', ['multiple', 'boolean'])
+      table.string('category').notNullable()
+      table.string('question').notNullable()
+      table.string('correct_answer').notNullable()
+      table.enu('difficulty', ['easy', 'medium', 'hard']).notNullable()
+      table.json('incorrect_answers').notNullable()
+      table.enu('type', ['multiple', 'boolean']).notNullable()
 
       /**
        * Uses timestamptz for PostgreSQL and DATETIME2 for MSSQL
