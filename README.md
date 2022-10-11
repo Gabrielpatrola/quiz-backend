@@ -18,6 +18,8 @@
   <span> · </span>
   <a href="#-como-usar">Como usar</a>
   <span> · </span>
+  <a href="#-material-de-apoio">Material de apoio</a>
+  <span> · </span>
   <a href="#-como-contribuir">Como contribuir</a>
   <span> · </span>
   <a href="#-licença">Licença</a>
@@ -90,6 +92,10 @@ Copie o arquivo `env.example` e crie um novo arquivo chamado `.env` e mude as va
 ```
 
 Após seguir esses passos é possível acessar a aplicação em http://localhost:3333
+
+## 📚 Material de Apoio
+
+- [Postman](/Quiz-app.postman_collection) com as requisições 
 
 ## 💪 Como contribuir
 
