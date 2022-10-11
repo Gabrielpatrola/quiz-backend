@@ -29,7 +29,7 @@ export default class Question extends BaseModel {
   public correct_answer: string
 
   @column()
-  public incorrect_answers: Array<string>
+  public incorrect_answers: string
 
   @column()
   public difficulty: QuestionDifficultyTypes

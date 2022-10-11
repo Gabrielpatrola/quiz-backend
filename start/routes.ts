@@ -27,6 +27,6 @@ Route.get('/', async () => {
 Route.group(() => {
   Route.get('questions', 'QuestionsController.index')
   Route.post('questions', 'QuestionsController.store')
-  Route.put('questions', 'QuestionsController.update')
-  Route.delete('questions', 'QuestionsController.delete')
+  Route.put('questions/:id', 'QuestionsController.update')
+  Route.delete('questions/:id', 'QuestionsController.destroy')
 }).prefix('/api')
