@@ -95,7 +95,7 @@ Após seguir esses passos é possível acessar a aplicação em http://localhost
 
 ## 📚 Material de Apoio
 
-- [Postman](/Quiz-app.postman_collection) com as requisições 
+- [Postman](/assets/Quiz-app.postman_collection.json) com as requisições 
 
 ## 💪 Como contribuir
 
