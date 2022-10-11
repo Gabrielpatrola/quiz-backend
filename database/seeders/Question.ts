@@ -1,3 +1,4 @@
+// @ts-nocheck
 import BaseSeeder from '@ioc:Adonis/Lucid/Seeder'
 import Question, {
   QuestionDifficultyTypes,
